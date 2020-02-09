@@ -11,7 +11,7 @@ class Scraper
       doc.css(".post")
       doc.css(".post").first
       doc.css(".post").first.css("h2")
-      
+      oc.css(".post").first.css("h2").text
       binding.pry
   end
  
